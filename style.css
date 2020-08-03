@@ -5,6 +5,10 @@ body{
 }
 .top-banner{
     width: 100%;
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position-y: bottom;
  
 }
 .Name-highlight{
@@ -38,6 +42,10 @@ section{
    padding: 10px 20px;
    border-radius: 5px;
    margin-top: 30px;
+}
+.biography{
+    background: url(images/biography-bg.png);
+    background-position: bottom;
 }
 .para
 {
@@ -100,4 +108,10 @@ section{
     }
     footer{
         text-align: center;
+    }
+    .my-work{
+        background-image: url(images/latest-work-bg.png);
+    }
+    .footer{
+        background-image: url(images/footer-bg.png);
     }
